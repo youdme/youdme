@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youdme", "youdme\youdme.csproj", "{59096B99-FFCA-4FAB-BAC7-34B3B9252D6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KNetCore", "KNetCore", "{E93DC29A-F470-441F-B073-86A1F9906FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCommon", "NetCommon\NetCommon.csproj", "{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59096B99-FFCA-4FAB-BAC7-34B3B9252D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59096B99-FFCA-4FAB-BAC7-34B3B9252D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59096B99-FFCA-4FAB-BAC7-34B3B9252D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59096B99-FFCA-4FAB-BAC7-34B3B9252D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB9CF3B1-131D-4EE5-8D55-89E6637EAAC3} = {E93DC29A-F470-441F-B073-86A1F9906FFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77F5AFE1-A528-4FD7-B17F-6B83B290F0A5}
+	EndGlobalSection
+EndGlobal
